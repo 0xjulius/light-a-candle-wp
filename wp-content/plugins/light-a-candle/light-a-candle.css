@@ -1,0 +1,394 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+::placeholder {
+  color: #999;
+}
+.light-a-candle-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px;
+  border: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.light-a-candle-form label {
+  display: block;
+  border: none;
+  font-weight: 500;
+}
+
+.singlecandlebg .singlecandle-content {
+  background-image: linear-gradient(
+    to left top,
+    #000000,
+    #0d0b0c,
+    #161415,
+    #1d1a1c,
+    #242124
+  );
+  color: #f8f8ff;
+}
+
+
+
+.light-a-candle-form input[type="text"] {
+  width: 100%;
+  margin-bottom: 25px;
+  background: #e6e6e6;
+  color: #666;
+  border-radius: 20px;
+  padding: 0 30px 0 68px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  height: 50px;
+}
+
+.candle_duration-text {
+  color: #999;
+}
+
+.light-a-candle-form textarea {
+  height: 150px;
+  width: 100%;
+  background: #e6e6e6;
+  color: #666;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  padding: 10px 20px 0;
+  margin-bottom: 25px;
+  resize: none;
+}
+
+.light-a-candle-form input[id="candle_relative_name"] {
+  width: 100%;
+}
+
+.light-a-candle-form input[type="email"] {
+  width: 100%;
+  margin-bottom: 10px;
+  background: #e6e6e6;
+  color: #666;
+  border-radius: 20px;
+  padding: 0 30px 0 68px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  height: 50px;
+  margin-bottom: 25px;
+}
+.light-a-candle-form input[type="number"] {
+  margin-bottom: 10px;
+  background: #e6e6e6;
+  color: #666;
+  border-radius: 20px;
+  padding: 0 30px 0 20px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  height: 50px;
+  width: 50%;
+}
+
+select {
+  background-color: transparent;
+  border: none;
+  padding: 0 1em 0 0;
+  margin: 0;
+  width: 100%;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: inherit;
+  -moz-appearance: none !important;
+  -webkit-appearance: none !important;
+}
+select::-ms-expand {
+  display: none;
+}
+
+.select {
+  width: 100%;
+  margin-bottom: 25px;
+  background: #e6e6e6;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="%23666"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6z"/><path d="M0 0h24v24H0z" fill="none"/></svg>');
+  background-position: right 20px center;
+  background-repeat: no-repeat;
+  color: #666;
+  border-radius: 20px;
+  padding: 0 30px 0 68px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  height: 50px;
+  cursor: pointer;
+  transition: background-image 0.3s ease;
+}
+
+.select:focus {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="%23666"><path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/><path d="M0 0h24v24H0z" fill="none"/></svg>');')
+  background-position: right 20px center;
+  background-repeat: no-repeat;
+}
+
+select:valid {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="%23666"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6z"/><path d="M0 0h24v24H0z" fill="none"/></svg>');
+  background-position: right 20px center;
+  background-repeat: no-repeat;
+}
+
+.light-a-candle-form input[type="submit"] {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 40%;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 15px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  height: 50px;
+  border-radius: 20px;
+}
+
+.light-a-candle-form input[type="checkbox"] {
+  zoom: 1.25;
+}
+
+.light-a-candle-success-message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 30px; 
+}
+
+.candle-item {
+  position: relative; 
+  margin-bottom: 20px;
+  padding: 40px;
+  background-image: linear-gradient(
+    to left top,
+    #000000,
+    #0d0b0c,
+    #161415,
+    #1d1a1c,
+    #242124
+  );
+  color: #f8f8ff;
+  border-radius: 30px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  transition-duration: 0.4s;
+}
+
+.candle-item:hover {
+  transition-duration: 0.4s;
+  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+  background-image: linear-gradient(
+    to left top,
+    #121212,
+    #171717,
+    #1b1b1b,
+    #202020,
+    #242424
+  );
+}
+
+.candle-title {
+  font-size: 28px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+h4 {
+  color: #fcbc70;
+}
+
+.candle-message {
+  position:relative;
+  margin-bottom: 40px;
+  margin-left: 25px;
+  margin-top: 40px;
+}
+
+.candle-duration {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.candle_duration-text {
+  color: #999;
+}
+
+.candle-cemetery {
+  margin-bottom: 5px;
+}
+
+.candle-picture {
+  margin-top: 100px;
+}
+.cemetery-picture {
+  margin-top: 50px;
+}
+
+.candle-picture-container {
+  height: 900px;
+}
+
+.candle-name {
+  position: absolute;
+  right: 0;
+  margin-right: 25px;
+}
+
+/* Custom Styles for Single Candle Page */
+.single-candle .candle-details {
+  text-align: left;
+}
+
+.single-candle .candle-details .candle-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.single-candle .candle-details {
+  align-self: flex-end;
+}
+
+.single-cemetery-picture {
+  margin-top: 50px;
+}
+.social-media-sharing {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.candle-info-container {
+  margin: auto;
+  margin-bottom: 40px;
+  padding: 40px;
+  border: 1px solid #ccc;
+  background-image: linear-gradient(
+    to left top,
+    #000000,
+    #0d0b0c,
+    #161415,
+    #1d1a1c,
+    #242124
+  );
+  color: #f8f8ff;
+  border-radius: 30px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  transition-duration: 0.4s;
+  max-width: 960px;
+  position: relative;
+}
+
+.candle-info-container:hover {
+  transition-duration: 0.4s;
+  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+}
+
+.candle-name-single {
+  position: absolute;
+  bottom: 15px; /* Adjust bottom value as needed */
+  right: 0px;
+  margin-right: 30px;
+}
+
+.candle-remaining-time {
+  margin-bottom: 200px;
+}
+.entry-title {
+  text-align: center;
+}
+
+.single-candle-message {
+  position: relative;
+  margin-left: 20px;
+  margin-bottom: 100px;
+}
+
+.single-candle-picture {
+  margin-top: 50px;
+}
+
+
+.show-all-candles-button-container {
+  margin-bottom: 30px;
+}
+
+.user-icon {
+  position: relative;
+  left: 25px; 
+  top: 55px;
+  width: 20px;
+  transform: translateY(-50%);
+  color: #666; 
+  font-size: 16px; 
+}
+.email-icon {
+  position: relative;
+  left: 25px; 
+  top: 55px;
+  width: 20px;
+  transform: translateY(-50%);
+  color: #666; 
+  font-size: 16px; 
+}
+.love-icon {
+  position: relative;
+  left: 25px; 
+  top: 55px;
+  width: 20px;
+  transform: translateY(-50%);
+  color: #666; 
+  font-size: 16px; 
+}
+.cemetery-icon {
+  position: relative;
+  left: 25px; 
+  top: 55px;
+  width: 20px;
+  transform: translateY(-50%);
+  color: #666; 
+  font-size: 16px; 
+}
+
+@media (min-width: 768px) {
+  .candle-picture-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 350px;
+      margin-bottom: 100px;
+      margin-top: 100px;
+  }
+
+  .candle-picture,
+  .cemetery-picture {
+      width: 350px;
+      height: 350px;
+      margin-top: 0px;
+  }
+
+  .candle-picture-container {
+      flex-direction: row;
+      height: 300px;
+  }
+  
+}
