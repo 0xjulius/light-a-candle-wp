@@ -1,3 +1,5 @@
+My thesis, feel free to check it out here: https://www.theseus.fi/handle/10024/811679
+
 The subject of this thesis was to develop a ‘Light a Candle’ -WordPress plugin,
 which will allow users to create innovative way to light virtual memorial candles
 for their deceased loved ones who passed away in Lumivaara. Lumivaara is located
@@ -13,7 +15,7 @@ of view in developing, installing and deploying your own WordPress plugins.
 
 ![SCREENSHOT](23.png)
 
-https://www.theseus.fi/handle/10024/811679
+
 
 ![SCREENSHOT](28.png)
 
