@@ -11,6 +11,10 @@ which are working under WordPress content management system (CMS).
 This thesis focuses on the WordPress content management system in general, installation, versions, themes and security, and of course from a developer's point
 of view in developing, installing and deploying your own WordPress plugins.
 
+![SCREENSHOT](23.png)
 
 https://www.theseus.fi/handle/10024/811679
 
+![SCREENSHOT](28.png)
+
+![SCREENSHOT](omat-sivut.png)
